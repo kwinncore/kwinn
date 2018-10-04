@@ -1,0 +1,8 @@
+.Container{
+    width:100vw;
+    height:50px;
+    display:flex;
+    justify-content: center;
+    align-content:right;
+    background-color:pink;
+}

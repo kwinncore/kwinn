@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import classes from  "./MainDashboard.css";
+import classes from  './MainDashboard.css';
+import Toolbar from '../../components/UI/Toolbar/Toolbar';
+import Footer from '../../components/Footer/Footer';
 
 
 
@@ -13,7 +15,12 @@ class MainDashboard extends Component{
 
 
     render() {
-        return(<div>MainDashBoard</div>)
+        return(<div >
+            <Toolbar/>
+        
+           
+            <Footer/>
+            </div>)
     }
 
 
