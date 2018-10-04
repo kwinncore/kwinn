@@ -1,2 +1,0 @@
-# kwinn
-an anime website
