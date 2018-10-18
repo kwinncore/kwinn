@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import classes from  './Toolbar.css';
+import './Toolbar.css';
+import NavItems from '../NavigationItems/NavigationItems';
+
+
 
 
 class Toolbar extends Component{
@@ -9,11 +13,12 @@ class Toolbar extends Component{
         
     }
 
+    
 
     render() {
-        return(<div className = {classes.Container}>
+        return(<div className = {'Container'}>
             
-            
+            <NavItems auth  = {this.props.isAuthenticated}/>
            
             
             </div>)
