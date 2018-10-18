@@ -12,7 +12,7 @@ class Toolbar extends Component{
 
     render() {
         return(<div className = {classes.Container}>
-            hello
+            
             
            
             
